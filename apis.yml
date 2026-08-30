@@ -1,7 +1,16 @@
 aid: treadwell-therapeutics
 name: Treadwell Therapeutics
-description: 'Treadwell Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Treadwell Therapeutics is a clinical-stage, multi-modality oncology company developing novel small-molecule
+  therapeutics for highly aggressive cancers by targeting tumor-specific vulnerabilities such as aneuploidy and
+  immunogenicity. Co-founded by Tak Wah Mak, PhD and Mark R. Bray, PhD, the company keeps drug discovery and
+  clinical development under one roof and works out of Toronto (with a research footprint at the University Health
+  Network), New York and Hong Kong. Its internally developed pipeline includes CFI-400945, an oral PLK4 inhibitor in
+  Phase 1/2 studies across triple-negative breast cancer, prostate cancer and acute myeloid leukemia (FDA Fast Track
+  designation); CFI-402257, a TTK inhibitor in Phase 1b/2; and CFI-402411, a first-in-class HPK1 inhibitor. Treadwell
+  is a therapeutics developer, not a software vendor - it publishes no developer program, no public API, and no
+  machine-readable API contract. Profiled by API Evangelist from its own public corporate site.
+image: https://treadwelltx.com/wp-content/uploads/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/treadwell-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +21,13 @@ created: '2026-08-30'
 modified: '2026-08-30'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Life Sciences
+- Healthcare
+- Clinical Trials
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,46 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/treadwell-therapeutics-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/treadwell-therapeutics_stock/
+  url: https://treadwelltx.com/
+- type: Blog
+  url: https://treadwelltx.com/news/
+- type: BlogRSS
+  url: https://treadwelltx.com/feed/
+- type: TermsOfService
+  url: https://treadwelltx.com/terms-of-use/
+- type: LLMsTxt
+  url: llms/treadwell-therapeutics-llms.txt
+- type: Plans
+  url: plans/treadwell-therapeutics-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/treadwell-therapeutics-rate-limits.yml
+x-enrichment:
+  date: '2026-08-30'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Treadwell Therapeutics is a privately held clinical-stage oncology drug developer whose entire web
+    presence is an eight-page WordPress marketing site on Flywheel - the only machine-readable things
+    it serves are an SEO-plugin llms.txt and the WordPress core wp-json CMS index, and every
+    OpenAPI/Swagger/GraphQL/.well-known path returns the site's WordPress 404 template.
+  evidence:
+  - url: https://treadwelltx.com/openapi.json
+    status: 404
+  - url: https://treadwelltx.com/graphql
+    status: 404
+  - url: https://treadwelltx.com/.well-known/api-catalog
+    status: 404
+  - url: https://treadwelltx.com/.well-known/agent-card.json
+    status: 404
+  - url: https://treadwelltx.com/llms.txt
+    status: 200
+  - url: https://treadwelltx.com/wp-json/
+    status: 200
+  checked: '2026-08-30'

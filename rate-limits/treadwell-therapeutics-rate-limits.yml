@@ -1,0 +1,18 @@
+generated: '2026-08-30'
+method: searched
+source: https://treadwelltx.com/
+name: Treadwell Therapeutics rate limits
+description: >-
+  No rate limits are documented because no API is documented. Treadwell Therapeutics publishes no
+  developer portal, no API reference and no machine-readable contract, so there is no request budget,
+  no rate-limit response header set and no exhaustion status code to record. Honest zero.
+limit_count: 0
+rate_limits: []
+headers: []
+x-evidence:
+- url: https://treadwelltx.com/sitemap.xml
+  status: 200
+  note: Full public site index - no docs, developer or API section.
+- url: https://treadwelltx.com/api
+  status: 404
+  note: WordPress 404 template.

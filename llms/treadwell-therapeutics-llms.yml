@@ -1,0 +1,24 @@
+generated: '2026-08-30'
+method: searched
+source: https://treadwelltx.com/llms.txt
+name: Treadwell Therapeutics llms.txt
+description: >-
+  Treadwell Therapeutics serves a real llms.txt at the root of its corporate site. It was saved
+  verbatim, not generated. It is auto-produced by the All in One SEO WordPress plugin (v5.0.1.1) and
+  indexes the site's pages, news posts and team entries - it carries no API, tool or endpoint
+  content, because the company publishes no API.
+file: treadwell-therapeutics-llms.txt
+x-evidence:
+  fetched: '2026-08-30'
+  url: https://treadwelltx.com/llms.txt
+  http_status: 200
+  content_type: text/plain
+  bytes: 9117
+generator: All in One SEO v5.0.1.1
+sections:
+- Sitemaps
+- Posts
+- Pages
+- Portfolio
+- Portfolio Entries
+llms_full_present: false
