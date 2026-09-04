@@ -10,6 +10,19 @@ description: >-
   designation); CFI-402257, a TTK inhibitor in Phase 1b/2; and CFI-402411, a first-in-class HPK1 inhibitor. Treadwell
   is a therapeutics developer, not a software vendor - it publishes no developer program, no public API, and no
   machine-readable API contract. Profiled by API Evangelist from its own public corporate site.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - rate-limits
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://treadwelltx.com/wp-content/uploads/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/treadwell-therapeutics/refs/heads/main/apis.yml
 x-type: company
