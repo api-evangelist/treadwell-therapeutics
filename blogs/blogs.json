@@ -3,17 +3,19 @@
   "feeds": [
     {
       "source": "https://treadwelltx.com/news/",
-      "error": "URLError"
+      "feed_url": "https://treadwelltx.com/news/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://treadwelltx.com/",
-      "error": "URLError"
-    },
-    {
-      "source": "https://treadwelltx.com/feed/",
-      "error": "URLError"
+      "feed_url": "https://treadwelltx.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 8,
-  "fetched": "2026-09-13T13:00:00Z"
+  "fetched": "2026-09-19T20:17:39Z"
 }
